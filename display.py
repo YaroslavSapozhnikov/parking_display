@@ -24,7 +24,7 @@ LOG_LEVELS = {'DEBUG':    logging.DEBUG,
               }
 
 
-cdgi_logger = logging.getLogger('cdge19')
+cdgi_logger = logging.getLogger('cgde19')
 
 
 def try_and_log(msg):
@@ -186,12 +186,12 @@ class Config:
 class Display:
     def __init__(self, cfg_fname, logger = None):
         if logger is None:
-            self.logger = logging.getLogger('cdge19')
+            self.logger = logging.getLogger('cgde19')
         else:
             self.logger = logger
         if not os.path.isdir("Logs"):
             os.mkdir("Logs")
-        self.logger_handler = TimedRotatingFileHandler('Logs/cdge.log', when='midnight', backupCount=30)
+        self.logger_handler = TimedRotatingFileHandler('Logs/cgde.log', when='midnight', backupCount=30)
         self.logger.addHandler(self.logger_handler)
         self.logger.setLevel(logging.INFO)
         self.logger.info("\n****************************************************\n")
