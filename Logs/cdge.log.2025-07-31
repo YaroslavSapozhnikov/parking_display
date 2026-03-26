@@ -1,0 +1,13 @@
+
+****************************************************
+
+2025-07-31 10:00:58,027 [INFO]:  Start display CDGE-19
+2025-07-31 10:00:58,970 [INFO]:  Background file 1: 'media/geometriya.png'
+2025-07-31 10:00:59,032 [INFO]:  Background file 2: 'media/geometriya_alarm.png'
+2025-07-31 10:00:59,107 [INFO]:  Background file 3: 'media/geometriya_pass.png'
+2025-07-31 10:00:59,154 [INFO]:  Font: fonts/InputMono-BlackItalic.ttf
+2025-07-31 10:00:59,170 [INFO]:  The icon file 'icons/1.png' is uploaded
+2025-07-31 10:00:59,187 [INFO]:  The icon file 'icons/14.png' is uploaded
+2025-07-31 10:00:59,204 [INFO]:  The icon file 'icons/15.png' is uploaded
+2025-07-31 10:00:59,222 [INFO]:  The icon file 'icons/29.png' is uploaded
+2025-07-31 10:00:59,990 [INFO]:  Connection established: address - 192.168.0.103, potr - 1773
