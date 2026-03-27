@@ -354,14 +354,12 @@ class Display:
         udp_driver.bind(UDP_DRIVER)
         udp_driver.settimeout(0.1)
 
-
     @try_and_log('Error: udp_server_quit()')
     def udp_server_quit(self):
         if isinstance(udp_controller, socket.socket):
             udp_controller.close()
         if isinstance(udp_driver, socket.socket):
             udp_driver.close()
-
 
     @try_and_log('Error: udp_server_poll()')
     def udp_server_poll(self):
@@ -402,7 +400,6 @@ class Display:
         com_params = data[3:-1]
         self.parse_command(com_code, com_params)
 
-
     @try_and_log('Error: parse_msg_params()')
     def parse_msg_params(self, mp):
         msg_params = []
@@ -414,7 +411,6 @@ class Display:
             msg_params.append(s)
             mp = mp[s_len + 1:]
         return msg_params
-
 
     @try_and_log('Error: parse_command()')
     def parse_command(self, com_code, com_params):
